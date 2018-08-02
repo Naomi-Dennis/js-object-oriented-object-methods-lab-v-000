@@ -20,4 +20,7 @@ class BoardMember{
   function releasePressStatement(){
     "You will see great things from Scuber."
   }
+  function sayHi(){
+    
+  }
 }
