@@ -21,6 +21,6 @@ class BoardMember{
     "You will see great things from Scuber."
   }
   function sayHi(){
-    
+    "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."
   }
 }
