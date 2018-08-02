@@ -1,4 +1,5 @@
 'use strict'
+let polishedBoardMember;
 class BoardMember{
   constructor(name, homeState, training){
     this.name = name
