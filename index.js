@@ -7,20 +7,20 @@ function BoardMember (name, homeState, training){
 
   this.veto(){
     return "No, I must disagree"
-  }
+  },
 
-  function approve(){
+  this.approve(){
     return "You can do that!"
-  }
+  },
 
-  function doCharity(){
+  this.doCharity(){
     return "I like to help people."
-  }
+  },
 
-  function releasePressStatement(){
+  this.releasePressStatement(){
     return "You will see great things from Scuber."
-  }
-  function sayHi(){
+  },
+  this.sayHi(){
     return `Hi, my name is ${this.name}. I am from <homestate>, and I was trained in ${this.training}.`
   }
 }
