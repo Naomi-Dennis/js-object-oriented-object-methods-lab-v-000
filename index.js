@@ -18,9 +18,9 @@ class BoardMember{
   }
 
   function releasePressStatement(){
-    "You will see great things from Scuber."
+    return "You will see great things from Scuber."
   }
   function sayHi(){
-    "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."
+    return "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."
   }
 }
