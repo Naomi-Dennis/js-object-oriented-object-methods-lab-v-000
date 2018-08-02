@@ -1,6 +1,6 @@
 'use strict'
 let boardMembers = []
-class BoardMember{
+function BoardMember{
   constructor(name, homeState, training){
     this.name = name
     this.homeState = homeState
