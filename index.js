@@ -4,7 +4,12 @@ class BoardMember{
     this.homeState = homeState
     this.training = training
   }
+
   function veto(){
     return "No, I must disagree"
+  }
+
+  function approve(){
+    
   }
 }
