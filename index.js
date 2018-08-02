@@ -1,6 +1,5 @@
 'use strict'
 
-let boardMembers = undefined;
 class BoardMember{
   constructor(name, homeState, training){
     this.name = name
